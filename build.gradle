@@ -7,14 +7,12 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdk 30
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
 
     defaultConfig {
         minSdk 21
-        targetSdk 30
-        versionCode 1
-        versionName "1.0"
-
+        targetSdk 29
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
